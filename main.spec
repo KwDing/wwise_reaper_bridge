@@ -4,12 +4,10 @@ import os
 from pathlib import Path
 from PyInstaller.utils.hooks import collect_submodules
 
-project_root = Path(os.getcwd())
+project_root = Path(SPECPATH)
 src_dir = project_root / "src" / "wwise_reaper_bridge"
 
-#entry_script = src_dir / "wwise_reaper_bridge" / "main.py"
 entry_script = src_dir / "main.py"
-#assets_src = src_dir / "wwise_reaper_bridge" / "assets"
 assets_src = src_dir / "assets"
 datas = [
     (str(assets_src), "wwise_reaper_bridge/assets"),
