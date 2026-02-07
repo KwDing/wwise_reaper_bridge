@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# PyInstaller outputs
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

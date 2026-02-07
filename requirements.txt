@@ -1,0 +1,4 @@
+waapi-client
+pywin32
+PyInstaller
+platformdirs 
